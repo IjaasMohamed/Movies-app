@@ -17,7 +17,29 @@
           <div class="stat">
             <div class="label">Language:</div>
             <div class="value">
-              {{ movie.original_language }}
+              {{ movie.original_language | uppercase }}
+            </div>
+          </div>
+          <div class="stat">
+            <div class="label">Revenue:</div>
+            <div class="value">
+              {{ movie.revenue | currency }}
+            </div>
+          </div>
+          <div class="stat">
+            <div class="label">Duration:</div>
+            <div class="value">{{ movie.runtime }} min</div>
+          </div>
+          <div class="stat">
+            <div class="label">Status:</div>
+            <div class="value">{{ movie.status }}</div>
+          </div>
+          <div class="stat">
+            <div class="label">Genres:</div>
+            <div class="value">
+              <span *ngFor="let genre of movie.genres">
+                {{ genre.name }}
+              </span>
             </div>
           </div>
         </div>
