@@ -1,7 +1,28 @@
 <ng-container *ngIf="movie">
   <slider [items]="[movie]" [isBanner]="true"></slider>
   <p-tabView>
-    <p-tabPanel header="Overview"> Content 1 </p-tabPanel>
+    <p-tabPanel header="Overview">
+      <div class="grid">
+        <div class="col-12 md:col-3 lg:col-3"></div>
+        <img class="poster" [src]="imagesSizes.medium + movie.poster_path" [alt]="movie.title" />
+        <div class="col-12 md:col-9 lg:col-9">
+          <h2>Overview</h2>
+          <p class="overview">{{ movie.overview }}</p>
+          <div class="stat">
+            <div class="label">Release Date:</div>
+            <div class="value">
+              {{ movie.release_date | date : 'dd.MM.yyyy' }}
+            </div>
+          </div>
+          <div class="stat">
+            <div class="label">Language:</div>
+            <div class="value">
+              {{ movie.original_language }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </p-tabPanel>
     <p-tabPanel header="Videos"> Content 2 </p-tabPanel>
     <p-tabPanel header="Photos"> Content 3 </p-tabPanel>
   </p-tabView>
