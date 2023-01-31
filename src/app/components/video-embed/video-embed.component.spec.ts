@@ -8,10 +8,11 @@ describe('VideoEmbedComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VideoEmbedComponent ]
-    })
-    .compileComponents();
+      declarations: [VideoEmbedComponent]
+    }).compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(VideoEmbedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
