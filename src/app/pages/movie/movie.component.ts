@@ -14,7 +14,7 @@ export class MovieComponent implements OnInit {
   movieVideos: MovieVideo[] = [];
   movieImages: MovieImages | null = null;
   imagesSizes = IMAGES_SIZES;
-  movieCredits:MovieCredits | null = null;
+  movieCredits: MovieCredits | null = null;
 
   constructor(private route: ActivatedRoute, private moviesService: MoviesService) {}
 
