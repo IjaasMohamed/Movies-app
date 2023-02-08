@@ -1,3 +1,9 @@
+![76505](https://user-images.githubusercontent.com/96341377/217488490-2994b3ac-d8af-46ad-b1c0-e4424d37d5e6.jpg)
+![Screenshot 2023-02-08 023920](https://user-images.githubusercontent.com/96341377/217488556-e691f4dc-3062-4760-b810-e9a616235e03.png)
+![7Screenshot 2023-02-08 023657](https://user-images.githubusercontent.com/96341377/217488561-cb216045-9f8c-4977-8d2d-3d09bf372cf5.png)
+![Screenshot 2023-02-08 023710](https://user-images.githubusercontent.com/96341377/217488576-1ad4e8b6-3550-4384-bc15-fcf9716f0737.png)
+![Screenshot 2023-02-08 023849](https://user-images.githubusercontent.com/96341377/217488585-511e9f99-c5f2-4c98-bd69-58613c4ae548.png)
+
 # MoviesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
